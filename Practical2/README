@@ -1,3 +1,19 @@
-Practice Application 2
+#Berkeley - Practical Application 2
 John Daly
+
+**Useful Links**
+You can find the primary GitHub link to this assignment [here](https://github.com/Redeye333/Berkeley/tree/db12a0ef549b796b0363de7a3b2cd2d9e6c3aadb/Practical2).
+
+**Findings**
+
+I loaded the data and performed ridge and linear regression models against the dataset to find the best features.  After cleaning the data I found the 3 best features included
+1) Year of vehicle
+2) Condition of vehicle (Fair and New being the best features)
+3) Type of Vehicle (Sedan and Truck being the best features)
+
+I also found that linear regression was the selected model, but ridge regression had lower MSEs for train and test sets.
+
+**How to Improve**
+
+If I was able to have the processing power, I would have analyzed the full data set. Given kernal issues, I had to limit the dataset to 1000 rows. I'm sure there would be additional insigts had I had the ability to expand the dataset.
 
