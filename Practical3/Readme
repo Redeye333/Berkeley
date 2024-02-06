@@ -2,4 +2,17 @@
 John Daly
 
 **Useful Links**
-You can find the primary GitHub link to this assignment [here](https://github.com/Redeye333/Berkeley/blob/a21f47af73b4fe23780e644af6a6f31d007c1979/Practical3/Practical%203%20Daly.ipynb).
+You can find the primary GitHub link to this assignment [here](https://github.com/Redeye333/Berkeley/tree/e05a9c1215292d85c1e5dad49e9ea58e5ca0aa8a/Practical3).
+
+Findings
+
+The basline mode perfomred well at 88.8%
+Logistic Regression score 88.8%
+KNN scoped 88.2% on training set
+Decision Tree scores 88.7% on training set (highest score of all models)
+SVM scored 88.7% on training set (scored highest on test set)
+
+When looking at model improvement
+Using 10 nearest neighbors with KNN was more accurate than 2 or 5 neighbors.
+
+It also apepars we can test removing some features as when I tested removing education, it yielded more accurate results.
