@@ -1,1 +1,23 @@
-Readme file
+John Daly - Capstone Project First Submission
+
+The location of the notebook file is here: https://github.com/Redeye333/Berkeley/blob/a2eb489131a291d2f8231dcfe439175cb1c9c55f/Capstone/John%20Daly%20Capstone1.ipynb
+
+Overview
+
+The predictive model for stock data was fairly accurate when looking at data over time.  However, today was interesting in that there was news which lowered
+the Tesla stock price.  Just basing stock market predictions based on trends and price movements proves to be risky.  In this case, Ford lowered the price of
+their electric vehicles which pushed Tesla's stock down 3%.  The time series based models are interesting but there are so many factors that can move the price
+of a stock that it's not always predictable.  There are irrational market movements and any predictive algorithm would not be able to adjust for everything.
+
+That said, I think some of this can be mitigated by looking at data such as deritive (options) volume.  For example, looking at how many people have open positions
+to short a stock will inherently account for many of these variables, such as competition, earnings calls and other macro factors.  This may be a next step in my model for
+the final submission.
+
+
+Approach
+I used yfinance to pull real time data as opposed to pulling static data.  This will help ensure we can re-run the code at any given time to pull predictive data.
+This is critical to ensure the code can be used with minimal effort.
+
+I relied heavily on the close price of the stock which is primarily used to show price movements and trends.
+
+After analyzing the data, I used Tesla as the stock to predict the price.
