@@ -1,0 +1,17 @@
+John Daly - Capstone Project Final Submission
+The location of the notebook file is here: 
+
+The analysis provides valuable insights into the limitations of using traditional time series models for stock price prediction, especially in light of unexpected external factors like news events. 
+The observation that Tesla's stock price was affected by news of Ford's electric vehicle price reduction highlights the inherent risk in relying solely on historical data and price trends for predictions.
+
+The acknowledgment of irrational market movements and the multitude of variables influencing stock prices underscores the complexity of the stock market. 
+While predictive algorithms can provide valuable insights, they may not be able to account for every factor impacting stock prices.
+
+The idea to incorporate derivative volume data, particularly options volume, into the predictive model is intriguing and may help improve the model (although that data was not available for testing). 
+Derivative volume can offer additional insights into market sentiment and investor behavior, which may help mitigate some of the unpredictability inherent in stock price movements.
+
+In terms of methodology, using real-time data from yfinance ensures the model's adaptability and repeatability, allowing for easy re-running of the code to generate updated predictions.
+Emphasizing the close price of the stock as the primary indicator for analysis aligns with conventional approaches to technical analysis and trend identification.
+
+Overall, the analysis provides a thoughtful evaluation of the challenges and potential enhancements in stock price prediction models. 
+Incorporating derivative volume data and real-time data retrieval represent promising avenues for refining predictive accuracy and adaptability in future iterations of the model.
