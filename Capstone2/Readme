@@ -1,17 +1,29 @@
 John Daly - Capstone Project Final Submission
-The location of the notebook file is here: 
+The location of the notebook file is here: https://github.com/Redeye333/Berkeley/blob/d5485deff51ea099417a50cc8c6dfe6114cd079b/Capstone2/John%20Daly%20Capstone2.ipynb
 
-The analysis provides valuable insights into the limitations of using traditional time series models for stock price prediction, especially in light of unexpected external factors like news events. 
-The observation that Tesla's stock price was affected by news of Ford's electric vehicle price reduction highlights the inherent risk in relying solely on historical data and price trends for predictions.
+The analysis provides valuable insights into the limitations of using traditional time series models for stock price prediction, especially in light 
+of unexpected external factors like news events. The observation that Tesla's stock price was affected by news of Ford's electric vehicle price reduction 
+highlights the inherent risk in relying solely on historical data and price trends for predictions.  
 
-The acknowledgment of irrational market movements and the multitude of variables influencing stock prices underscores the complexity of the stock market. 
+When running the data again a month later, the prediction was also inaccurate as it predicted the price to increase, while the price actually decreased.  
+This again reinforces the fact that price and trends alone won’t give you accurate predictions.  The acknowledgment of irrational market movements and 
+the multitude of variables influencing stock prices underscores the complexity of the stock market. 
+
 While predictive algorithms can provide valuable insights, they may not be able to account for every factor impacting stock prices.
+The idea to incorporate derivative volume data, particularly options volume, into the predictive model is intriguing and may help improve the model
+(although that data was not available for testing). Derivative volume can offer additional insights into market sentiment and investor behavior, 
+which may help mitigate some of the unpredictability inherent in stock price movements.
 
-The idea to incorporate derivative volume data, particularly options volume, into the predictive model is intriguing and may help improve the model (although that data was not available for testing). 
-Derivative volume can offer additional insights into market sentiment and investor behavior, which may help mitigate some of the unpredictability inherent in stock price movements.
-
-In terms of methodology, using real-time data from yfinance ensures the model's adaptability and repeatability, allowing for easy re-running of the code to generate updated predictions.
-Emphasizing the close price of the stock as the primary indicator for analysis aligns with conventional approaches to technical analysis and trend identification.
+In terms of methodology, using real-time data from yfinance ensures the model's adaptability and repeatability, allowing for easy re-running of the code to 
+generate updated predictions. Emphasizing the close price of the stock as the primary indicator for analysis aligns with conventional approaches to 
+technical analysis and trend identification.LTSM is one the best approach as it leverages time and patterns, but there are several challenges 
+with it when predicting stock prices:
+1)	Efficient Market Hypothesis tells us that the stock price already includes all available information.  LTSM would be challenging as it would not be aware of new information that would drive market movement
+2)	Stock market data is non-linear and reacts and is influences my a mix of factors. LTSM or any prediction model will struggle as there are so many factors involved (War, inflation, competitors, etc)
+3)	Adding all the ancillary data would overfit the model and make it noisy and unusable
+4)	Human emotions play a large role in stock market movement.  Gamestop is a great example of this, as is cryptocurrency.  LTSM and other prediction models can’t account for these irrational changes.
 
 Overall, the analysis provides a thoughtful evaluation of the challenges and potential enhancements in stock price prediction models. 
-Incorporating derivative volume data and real-time data retrieval represent promising avenues for refining predictive accuracy and adaptability in future iterations of the model.
+Incorporating derivative volume data and real-time data retrieval represent promising avenues for refining predictive accuracy and adaptability in future 
+iterations of the model.   Using this data alongside other models may yield a higher degree of accuracy but it’s unlikely any model would be 
+highly accurate given the information mentioned above.
